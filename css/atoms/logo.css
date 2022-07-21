@@ -1,0 +1,8 @@
+.logo {
+  background: transparent url("../../media/logo.svg") center center no-repeat;
+  background-size: cover;
+  display: block;
+  flex: 0 0 12.5em;
+  height: 200px;
+  width: 200px;
+}

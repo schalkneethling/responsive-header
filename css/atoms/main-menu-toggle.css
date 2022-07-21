@@ -1,0 +1,17 @@
+.main-menu-toggle {
+  background: transparent url("../../media/icons/open.svg") center center
+    no-repeat;
+  background-size: cover;
+  height: 2rem;
+  width: 2rem;
+}
+
+.main-menu-toggle[aria-expanded="true"] {
+  background-image: url(../../media/icons/close.svg);
+}
+
+@media screen and (min-width: 47.9375em) {
+  .main-menu-toggle {
+    display: none;
+  }
+}

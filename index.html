@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mycelium Network</title>
+    <link href="./css/libs/reset.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="./css/main.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+
+<body>
+    <header class="page-header">
+        <a href="/" class="logo">
+            <span class="visually-hidden">The Mycelium Network</span>
+        </a>
+        <button aria-controls="page-header-inner" aria-haspopup="true"
+            aria-expanded="false" type="button" class="button main-menu-toggle"
+            id="main-menu-toggle">
+            <span class="visually-hidden">Show menu</span>
+        </button>
+        <div id="page-header-inner" class="page-header-inner">
+            <nav class="main-navigation" aria-label="Main navigation">
+                <ul class="reset-list main-navigation-container">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/portfolio">Portfolio</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </nav>
+            <form class="search-form" name="search" action="/search-results" method="GET">
+                <label for="search-input" class="visually-hidden">Enter your search
+                    query</label>
+                <input type="search" id="search-input" name="q" />
+                <button type="submit" class="button button-primary">Search</button>
+            </form>
+        </div>
+    </header>
+    <script src="./js/menu.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+.button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.button-primary {
+  background-color: var(--color-blue-40);
+  border-radius: var(--border-radius-default);
+  color: var(--color-neutral-inverted);
+  padding: var(--layout-padding-narrow) var(--layout-padding-default);
+}
+
+.button-primary:active,
+.button-primary:focus {
+  background-color: var(--color-blue-10);
+  color: var(--color-neutral-60);
+  outline: var(--border-outline-default);
+}

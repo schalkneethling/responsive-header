@@ -1,0 +1,41 @@
+.page-header-inner {
+  background-color: var(--color-neutral-inverted);
+  display: none;
+  flex: 1 1 auto;
+  padding: var(--layout-padding-default);
+  padding-top: 0;
+}
+
+.show {
+  display: block;
+  left: 0;
+  position: absolute;
+  top: 12rem;
+  width: 100%;
+}
+
+@media screen and (min-width: 47.9375em) {
+  .page-header-inner {
+    align-items: end;
+    display: flex;
+    flex-direction: column;
+    grid-gap: var(--layout-padding-default);
+    gap: var(--layout-padding-default);
+    padding: 0;
+  }
+
+  .show {
+    left: initial;
+    position: initial;
+    top: initial;
+    width: unset;
+  }
+}
+
+@media screen and (min-width: 63.9375em) {
+  .page-header-inner {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

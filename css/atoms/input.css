@@ -1,0 +1,5 @@
+input[type="search"] {
+  border: var(--border-input-common);
+  border-radius: var(--border-radius-default);
+  padding: 0.3rem var(--layout-padding-default);
+}

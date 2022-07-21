@@ -1,0 +1,60 @@
+@import "./atoms/logo.css";
+@import "./atoms/button.css";
+@import "./atoms/main-menu-toggle.css";
+@import "./atoms/nav-link.css";
+@import "./atoms/input.css";
+
+@import "./molecules/main-navigation.css";
+
+@import "./organisms/page-header.css";
+@import "./organisms/page-header-inner.css";
+@import "./organisms/search-form.css";
+
+:root {
+  --border-input-common: 2px solid var(--color-neutral-60);
+  --border-outline-default: 2px solid var(--color-blue-30);
+  --border-radius-default: 0.5rem;
+
+  --color-blue-10: #a4a4cf;
+  --color-blue-40: #2f2f66;
+  --color-blue-30: #53539c;
+
+  --color-neutral-60: #181818;
+  --color-neutral-inverted: #fff;
+
+  --layout-padding-narrow: 0.5rem;
+  --layout-padding-default: 1rem;
+  --layout-padding-medium: 2rem;
+
+  --layout-max-page-width: 40em;
+
+  --typography-body-line-height: 1.75;
+}
+
+@media screen and (min-width: 63.9375em) {
+  :root {
+    --layout-max-page-width: 75em;
+  }
+}
+
+body {
+  font: 100% / var(--typography-body-line-height) sans-serif;
+}
+
+/* common utility classes */
+.reset-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}

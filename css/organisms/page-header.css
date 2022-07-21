@@ -1,0 +1,16 @@
+.page-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: var(--layout-max-page-width);
+  padding: var(--layout-padding-default);
+  position: relative;
+}
+
+@media screen and (min-width: 47.9375em) {
+  .page-header {
+    grid-gap: var(--layout-padding-medium);
+    gap: var(--layout-padding-medium);
+  }
+}
